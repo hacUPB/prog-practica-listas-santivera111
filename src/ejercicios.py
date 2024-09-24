@@ -4,7 +4,7 @@ def suma_matriz(matriz:list):
     Recibe una lista de listas y devuelve la suma de todos sus elementos.
     Incluir el código aquí para sumar los elementos de la matriz.
     """
-    
+
 
     suma = 0
     for filas in matriz:
@@ -19,7 +19,14 @@ def maximo_matriz(matriz):
     Recibe una lista de listas y devuelve el valor máximo.
     Incluir el código aquí para encontrar el valor máximo en la matriz.
     """
-    pass
+
+    valores=[]
+    for i in matriz:
+        maximo = max(i)
+        return maximo
+        
+
+    
 
 # Ejercicio 3: Verificar si un número es primo
 def es_primo(n):
@@ -88,7 +95,9 @@ def cifrado_cesar(texto, desplazamiento):
 
 #Aquí comienza el progrma principal. No modifiques el código debajo de esta línea.
 def main():
-    pass
+    def maximo_matriz(matriz:list):
+       Valores = int(input("Ingrese los valores de la matriz"))
+       
 
 
 if __name__ == "__main__":
