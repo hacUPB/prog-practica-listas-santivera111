@@ -1,10 +1,17 @@
 # Ejercicio 1: Suma de elementos en una lista de listas
-def suma_matriz(matriz):
+def suma_matriz(matriz:list):
     """
     Recibe una lista de listas y devuelve la suma de todos sus elementos.
     Incluir el código aquí para sumar los elementos de la matriz.
     """
-    pass
+    
+
+    suma = 0
+    for filas in matriz:
+        for datos in filas:
+            suma += datos
+    return suma
+    
 
 # Ejercicio 2: Encontrar el valor máximo en una matriz
 def maximo_matriz(matriz):
