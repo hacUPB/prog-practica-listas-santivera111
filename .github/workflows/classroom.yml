@@ -22,9 +22,29 @@ jobs:
         command: pytest ./tests/test_ejercicios.py::test_suma_matriz -v
         timeout: 10
         max-score: 10
+    - name: Test2
+      id: test2
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Test2
+        setup-command: sudo -H pip3 install pytest
+        command: pytest ./tests/test_ejercicios.py::test_maximo_matriz -v
+        timeout: 10
+        max-score: 10
+    - name: Test3
+      id: test3
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Test3
+        setup-command: sudo -H pip3 install pytest
+        command: pytest ./tests/test_ejercicios.py::test_es_primo -v
+        timeout: 10
+        max-score: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
         TEST1_RESULTS: "${{steps.test1.outputs.result}}"
+        TEST2_RESULTS: "${{steps.test2.outputs.result}}"
+        TEST3_RESULTS: "${{steps.test3.outputs.result}}"
       with:
-        runners: test1
+        runners: test1,test2,test3
