@@ -20,11 +20,12 @@ def maximo_matriz(matriz):
     Incluir el código aquí para encontrar el valor máximo en la matriz.
     """
 
-  valores=[]
+    valores=[]
     for i in matriz:
         maximo = max(i)
         valores.append(maximo)
-        print (f"{valores}")
+    maximo_maximos=max(maximo)
+    return maximo_maximos
 
         
 
@@ -36,7 +37,20 @@ def es_primo(n):
     Recibe un número y devuelve True si es primo, False en caso contrario.
     Incluir el código aquí para determinar si un número es primo.
     """
-    pass
+    numero = int(input("Ingrese un numero")
+        contador=1
+        while numero -= contador 
+        contador += 1
+        residuo
+        lista = []
+        contador.append(lista)
+        if 
+            lista == 2 
+            print("Numero primo")
+        else 
+        print("Numero no primo")
+                 
+
 
 # Ejercicio 4: Transponer una matriz
 def transponer_matriz(matriz):
