@@ -58,7 +58,18 @@ def transponer_matriz(matriz):
     Recibe una lista de listas y devuelve la matriz transpuesta.
     Incluir el código aquí para transponer la matriz.
     """
-    pass
+    FILAS = len(matriz)
+    columnas = len(matriz[0])
+    transpuesta = []
+    
+    for k in range(columnas):
+        fila_nueva = []
+        for l in range(FILASA):
+            fila_nueva.append(matriz[l][k])
+        transpuesta.append(fila_nueva)
+    
+    return transpuesta
+
 
 # Ejercicio 5: Filtrar números pares
 def filtrar_pares(lista):
@@ -66,7 +77,13 @@ def filtrar_pares(lista):
     Recibe una lista de números y devuelve una nueva lista con solo los números pares.
     Incluir el código aquí para filtrar los números pares.
     """
-    pass
+    lista_pares = []
+    for numero in lista:
+        if numero % 2 == 0:
+            lista_pares.append(numero)
+    return pares
+
+
 
 # Ejercicio 6: Contar la cantidad de palabras en una frase
 def contar_palabras(frase):
