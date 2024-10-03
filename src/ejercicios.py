@@ -1,10 +1,17 @@
 # Ejercicio 1: Suma de elementos en una lista de listas
-def suma_matriz(matriz):
+def suma_matriz(matriz:list):
     """
     Recibe una lista de listas y devuelve la suma de todos sus elementos.
     Incluir el código aquí para sumar los elementos de la matriz.
     """
-    pass
+
+
+    suma = 0
+    for filas in matriz:
+        for datos in filas:
+            suma += datos
+    return suma
+    
 
 # Ejercicio 2: Encontrar el valor máximo en una matriz
 def maximo_matriz(matriz):
@@ -12,7 +19,17 @@ def maximo_matriz(matriz):
     Recibe una lista de listas y devuelve el valor máximo.
     Incluir el código aquí para encontrar el valor máximo en la matriz.
     """
-    pass
+
+    valores=[]
+    for i in matriz:
+        maximo = max(i)
+        valores.append(maximo)
+    maximo_maximos=max(maximo)
+    return maximo_maximos
+
+        
+
+    
 
 # Ejercicio 3: Verificar si un número es primo
 def es_primo(n):
@@ -20,7 +37,20 @@ def es_primo(n):
     Recibe un número y devuelve True si es primo, False en caso contrario.
     Incluir el código aquí para determinar si un número es primo.
     """
-    pass
+    numero = int(input("Ingrese un numero")
+        contador=1
+        while numero -= contador 
+        contador += 1
+        residuo
+        lista = []
+        contador.append(lista)
+        if 
+            lista == 2 
+            print("Numero primo")
+        else 
+        print("Numero no primo")
+                 
+
 
 # Ejercicio 4: Transponer una matriz
 def transponer_matriz(matriz):
@@ -28,7 +58,18 @@ def transponer_matriz(matriz):
     Recibe una lista de listas y devuelve la matriz transpuesta.
     Incluir el código aquí para transponer la matriz.
     """
-    pass
+    FILAS = len(matriz)
+    columnas = len(matriz[0])
+    transpuesta = []
+    
+    for k in range(columnas):
+        fila_nueva = []
+        for l in range(FILASA):
+            fila_nueva.append(matriz[l][k])
+        transpuesta.append(fila_nueva)
+    
+    return transpuesta
+
 
 # Ejercicio 5: Filtrar números pares
 def filtrar_pares(lista):
@@ -36,7 +77,13 @@ def filtrar_pares(lista):
     Recibe una lista de números y devuelve una nueva lista con solo los números pares.
     Incluir el código aquí para filtrar los números pares.
     """
-    pass
+    lista_pares = []
+    for numero in lista:
+        if numero % 2 == 0:
+            lista_pares.append(numero)
+    return pares
+
+
 
 # Ejercicio 6: Contar la cantidad de palabras en una frase
 def contar_palabras(frase):
@@ -81,7 +128,9 @@ def cifrado_cesar(texto, desplazamiento):
 
 #Aquí comienza el progrma principal. No modifiques el código debajo de esta línea.
 def main():
-    pass
+    def maximo_matriz(matriz:list):
+       Valores = int(input("Ingrese los valores de la matriz"))
+       
 
 
 if __name__ == "__main__":
