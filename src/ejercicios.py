@@ -99,7 +99,7 @@ def tabla_multiplicar(n):
     """
 def tabla_multiplicar(n)
     Lista = ()
-    for multiplicador in range(1,10)
+    for multiplicador in range(1,11)
     Lista.append(n*multiplicador)
     return(Lista)
 
