@@ -77,11 +77,9 @@ def filtrar_pares(lista):
     Recibe una lista de números y devuelve una nueva lista con solo los números pares.
     Incluir el código aquí para filtrar los números pares.
     """
-    lista_pares = []
-    for numero in lista:
-        if numero % 2 == 0:
-            lista_pares.append(numero)
-    return pares
+def filtrar_pares(lista):
+    return [num for num in lista if num % 2 == 0]
+
 
 
 
