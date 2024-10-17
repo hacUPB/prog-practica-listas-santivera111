@@ -97,7 +97,12 @@ def tabla_multiplicar(n):
     Recibe un número y devuelve una lista con su tabla de multiplicar del 1 al 10.
     Incluir el código aquí para generar la tabla de multiplicar.
     """
-    pass
+def tabla_multiplicar(n)
+    multiplicador = for n in range(1,10)
+    Lista = ()
+    Numeros = n*multiplicador
+    Numeros.append(Lista)
+    return(Lista)
 
 # Ejercicio 8: Contar números negativos en una lista
 def contar_negativos(lista):
