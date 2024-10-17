@@ -98,10 +98,9 @@ def tabla_multiplicar(n):
     Incluir el código aquí para generar la tabla de multiplicar.
     """
 def tabla_multiplicar(n)
-    multiplicador = for n in range(1,10)
     Lista = ()
-    Numeros = n*multiplicador
-    Numeros.append(Lista)
+    for multiplicador in range(1,10)
+    Lista.append(n*multiplicador)
     return(Lista)
 
 # Ejercicio 8: Contar números negativos en una lista
